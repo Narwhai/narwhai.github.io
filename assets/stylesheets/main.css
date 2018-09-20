@@ -362,7 +362,10 @@ p a {
   ========================================
 */
 
-.resume{
+.resume,
+.resume-education,
+.resume-employment
+{
   margin-bottom: 44px;
 }
 .resume-section {
@@ -377,6 +380,19 @@ p a {
   margin: 3px 0;
   vertical-align: top;
 }
+
+.resume-education img {
+  height: 130px;
+  margin: -50px 0 22px 0;
+  vertical-align: top;
+}
+
+.resume-employment img{
+  height: 130px;
+  margin: 60px 0 22px 0;
+  vertical-align: top;
+}
+
 /*
 .resume li:last-child {
   margin-right: 0;
